@@ -1,0 +1,6 @@
+1) In a powershell run the following command: "C:\Users\User\Desktop\Vitsakis\info_retrieval\scripts\daily_update.bat"
+    This fetches new items per category -> rebuilds the index -> rebuilds chunks.
+
+2) Optional step....Watch the live log...In a second poershell run the command: Get-Content "C:\Users\User\Desktop\Vitsakis\info_retrieval\scripts\logs\daily.log" -Wait -Tail 30
+
+3) Check if successfull...write the command: type "C:\Users\User\Desktop\Vitsakis\info_retrieval\scripts\logs\daily.log"

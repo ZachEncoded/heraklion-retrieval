@@ -1,0 +1,10 @@
+# Crawling
+requests
+beautifulsoup4
+trafilatura
+pypdf
+
+# Indexing & search
+numpy
+scipy
+scikit-learn
